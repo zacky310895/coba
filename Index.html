@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD AYANG</title>
+</head>
+<style>
+body {
+    background-image: url("back.jpg") ;
+}
+</style>
+<body>
+    <h1>Assalamualaikum</h1>
+    <p>Wilujeung Tepang taun yang 🥰</p>
+    <p>Semoga makin sayang sama aku😊🤍🤍🤍🤍🤍🤍🤍</p>
+    <img src="foto.jpg" alt="A photo of my girlfriend."
+    height="100" width="90">
+    <img src="foto2.jpg" alt="A photo of my girlfriend."
+    height="100" width="90">
+    <img src="foto3.webp" alt="A photo of my girlfriend."
+    height="100" width="90">
+
+    <button onclick="playVid()" type="button">Pijit Yang</button>
+    <button onclick="pauseVid()" type="button">Jeda</button>
+
+    <video id="myVideo" height="200" width="100">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+    
+    <script> 
+        let vid = document.getElementById("myVideo"); 
+        
+        function playVid() { 
+          vid.play(); 
+        }
+        function pauseVid(){
+            vid.pause();
+        }
+
+        </script> 
+        
+</body>
+</html>
